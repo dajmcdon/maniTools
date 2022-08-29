@@ -28,7 +28,9 @@ Suggests:
   purrr,
   animation,
   R.matlab,
-  pixmap
+  pixmap,
+  rmarkdown,
+  shiny
 Remotes:
   github::cran/spe,
   bioc::RDRToolbox
