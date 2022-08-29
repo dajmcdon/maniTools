@@ -30,7 +30,7 @@ Suggests:
   R.matlab,
   pixmap
 Remotes:
-  github::cran/spe
+  github::cran/spe,
   bioc::RDRToolbox
 VignetteBuilder:
   knitr
