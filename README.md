@@ -1,5 +1,8 @@
 ## Manifold learning in R
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/dajmcdon/maniTools/workflows/R-CMD-check/badge.svg)](https://github.com/dajmcdon/maniTools/actions)
+<!-- badges: end -->
 
 ### Installation
 

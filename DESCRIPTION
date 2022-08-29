@@ -29,6 +29,9 @@ Suggests:
   animation,
   R.matlab,
   pixmap
+Remotes:
+  github::cran/spe
+  bioc::RDRToolbox
 VignetteBuilder:
   knitr
 RoxygenNote: 6.1.1
