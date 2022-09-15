@@ -15,8 +15,7 @@
 #' lle_data <- LLE2(sim_data$data, dim = 2, k = 8)
 #' p2 <- plotly_2D(lle_data, color = sim_data$colors); p2
 #' @export
-LLE2 <- function (data, dim = 2, k)
-{
+LLE2 <- function(data, dim = 2, k) {
   if (missing(data))
     stop("data argument missing")
   else if (!is.matrix(data))

@@ -1,39 +1,43 @@
-Package: maniTools
 Type: Package
+Package: maniTools
 Title: Manifold learning in R
 Version: 0.98
 Author: Jackson Kwok
 Maintainer: Jackson Kwok <kcf.jackson@gmail.com>
-Description: This package is about porting Todd Wittman's Matlab codes, "MANI: Manifold Learning Toolkit", to R. See http: //macs.citadel.edu/wittman/research.html for source. Three algorithms are ported: Laplacian Eigenmaps, Hessian LLE (HLLE) and Local Tangent Space Alignment (LTSA). Others are collected from existing R packages, including Isomap and LLE in "RDRToolbox", diffusionMap in "diffusionMap", t-SNE in "tsne", KPCA in "kernlab" and SPE in "spe".
+Description: This package is about porting Todd Wittman's Matlab codes,
+    "MANI: Manifold Learning Toolkit", to R. See http:
+    //macs.citadel.edu/wittman/research.html for source. Three algorithms
+    are ported: Laplacian Eigenmaps, Hessian LLE (HLLE) and Local Tangent
+    Space Alignment (LTSA). Others are collected from existing R packages,
+    including Isomap and LLE in "RDRToolbox", diffusionMap in
+    "diffusionMap", t-SNE in "tsne", KPCA in "kernlab" and SPE in "spe".
 License: GPL-3
-LazyData: TRUE
 Imports:
-  methods,
-  stats,
-  utils,
-  magrittr,
-  RDRToolbox,
-  diffusionMap,
-  tsne,
-  kernlab,
-  spe,
-  plotly,
-  RSpectra,
-  MASS,
-  Matrix,
-  shiny
+    magrittr,
+    MASS,
+    Matrix,
+    methods,
+    plotly,
+    RSpectra,
+    shiny
 Suggests:
-  knitr,
-  fields,
-  purrr,
-  animation,
-  R.matlab,
-  pixmap,
-  rmarkdown,
-  shiny
-Remotes:
-  github::cran/spe,
-  bioc::RDRToolbox
+    animation,
+    diffusionMap,
+    fields,
+    kernlab,
+    knitr,
+    pixmap,
+    purrr,
+    R.matlab,
+    RDRToolbox,
+    rmarkdown,
+    spe,
+    tsne
 VignetteBuilder:
-  knitr
-RoxygenNote: 6.1.1
+    knitr
+Remotes:
+    bioc::RDRToolbox,
+    github::cran/spe
+Encoding: UTF-8
+LazyData: TRUE
+RoxygenNote: 7.2.1

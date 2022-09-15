@@ -54,7 +54,7 @@ corner_planes <- function(N, angles = 45) {
         X[k, ] = c(x, newy, newz)
       }
       ColorVector[k] = y
-      k = k+1;
+      k = k + 1
     }
   }
   list(data = X, colors = ColorVector)
